@@ -23,9 +23,10 @@ function encodeAndDecodeMessages() {
 
         textHolders[0].value = '';
     }
-
+    
     function decode () {
         textHolders[1].value = transform(textHolders[1].value, previousChar);
+        
     }
 
 }
