@@ -27,3 +27,9 @@ const modifiedSayHi = sayHi.bind(newContext);
 modifiedSayHi("Gosho", 32);
 //-Hello, my name is Gosho and I am 32 y/o. 
 //  -Hi my name is Mariya!
+
+//Partial application
+console.log("==================================================");
+
+const partialApplicationSayHi = sayHi.bind(newContext, "Mitko");
+partialApplicationSayHi(24);
