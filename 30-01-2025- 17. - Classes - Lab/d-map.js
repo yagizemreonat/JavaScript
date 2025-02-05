@@ -20,13 +20,13 @@ for (const [key, value] of map) {
 }
 
 // Get specific value
-// console.log(map.get("name"));
+console.log(map.get("name"));
 
 // Get map size
-// console.log(map.size);
+console.log(map.size);
 
 // Get if key exists
-// console.log(map.has("name"));
+console.log(map.has("name"));
 
 // Iterate over keys
 for (const key of map.keys()) {
@@ -35,16 +35,16 @@ for (const key of map.keys()) {
 
 // Iterate over values
 for (const key of map.values()) {
-  //   console.log(key);
+    console.log(key);
 }
 
 // Delete key
-// console.log(map.delete("name"));
-// console.log(map);
+console.log(map.delete("name"));
+console.log(map);
 
 // Clear
 map.clear();
-// console.log(map);
+console.log(map);
 
 // Sort
 const phoneBook = new Map();
@@ -58,4 +58,4 @@ const phoneBookTuples = Array.from(phoneBook);
 phoneBookTuples.sort((a, b) => a[0].localeCompare(b[0]));
 
 const sortedMap = new Map(phoneBookTuples);
-// console.log(sortedMap);
+console.log(sortedMap);
